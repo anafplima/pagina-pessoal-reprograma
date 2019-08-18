@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: 'Laila', serif;
+    background-color: white;
+}
+
+/* BANNER */
+.banner{
+    background-image: url("../img/IMG_20190202_163118.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 600px;
+}
+
+.banner-informacoes{
+    padding-top: 40vh;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Bree Serif', serif;
+    font-size: 3rem;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.banner-informacoes p{
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+.banner-informacoes a{
+    font-size: 1.4rem;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255, 0.5);
+    text-decoration: transparent;
+    color:  #c83b44;
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+    text-align: center;
+}
+
+.banner-informacoes a:hover{
+    /* background-color: powderblue; */
+    /* color: white; */
+    border: 2px solid #c83b44;
+}
+
+h2{
+    text-align: center;
+}
+
+h2,
+h3{
+    font-family: 'Laila', serif;
+    margin-bottom: 1em;
+}
+
+/* SOBRE MIM */
+.sobre-mim{
+    max-width: 1028px;
+    margin: 0 auto;
+    padding: 2rem 0 0 0;
+    text-align: center;
+}
+
+.sobre-mim_habilidades,
+.curriculo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    text-align: justify;
+}
+
+.sobre-mim_habilidades_titulo{
+    max-width: 30rem;
+    margin-right: 2rem;
+}
+
+ul {
+    /* display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; */
+    padding-inline-start: 40px;
+}
+
+.curriculo a{
+    font-size: 1.2rem;
+    background-color:#c83b44;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+    text-align: center;
+}
+.curriculo a:hover{
+    background-color: white;
+    border: 1px solid #c83b44;
+    color: #c83b44;
+}
+/* REDES SOCIAIS */
+.redes-sociais{
+    background-color: #c83b44;
+    margin-top: 30px;
+    padding: 5rem;
+    width: 100%;
+}
+
+.redes-sociais_item_facebook, 
+.redes-sociais_item_instagram, 
+.redes-sociais_item_linkedin, 
+.redes-sociais_item_github{
+    background-color: #c83b44;
+    padding 2rem;
+} 
+
+.redes-sociais_item a{
+    color: white;
+    text-decoration: none;
+}
+
+.redes-sociais_item{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.redes-sociais_item img{
+    min-width: 1.5rem;
+}
+
+
+
+/* FOOTER */
+footer{
+    text-align: center;
+    margin: 3rem 0;
+}
